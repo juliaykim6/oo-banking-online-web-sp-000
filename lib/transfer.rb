@@ -10,6 +10,6 @@ class Transfer
   end
 
   def valid?
-    self.status == open
+    self.status == "open"
   end
 end
