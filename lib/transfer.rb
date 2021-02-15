@@ -10,6 +10,6 @@ class Transfer
   end
 
   def valid?
-    bank_account.status == open
+    self.status == open
   end
 end
