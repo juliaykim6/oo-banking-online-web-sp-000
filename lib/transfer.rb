@@ -34,6 +34,7 @@ class Transfer
       receiver.balance -= amount
       self.statuf = "reversed"
     end
+  end
 
 
 end
