@@ -10,6 +10,6 @@ class Transfer
   end
 
   def valid?
-    self.status == "open"
+    sender.valid? && receiver.valid? 
   end
 end
